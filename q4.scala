@@ -9,7 +9,7 @@ object theatre{
         }
 
         def cost(price: Int): Int = {
-            500+attendees(price)
+            500+(attendees(price)*3)
         }
 
         def profit(price: Int): Int = {
